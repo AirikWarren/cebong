@@ -11,9 +11,9 @@
 @import url("reset.css");
 @import url("pygment.css");
 @import url("typogrify.css");
-@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&subset=latin);
-@import url(http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600,600italic,700,700italic);
-@import url(http://fonts.googleapis.com/css?family=Droid+Sans+Mono);
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&subset=latin);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600,600italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans+Mono);
 /***** Global *****/
 /* Body */
 body {
@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
     font-size: 50px;
-
+    color: #231123;
 }
 
 h3, h4, h5, h6 { margin-top: .8em; }
@@ -89,7 +89,7 @@ h1 a:hover {
 }
 	
 /* Paragraphs */
-p {margin-bottom: 1.143em;}
+p {margin-bottom: 1.143em; color:#001}
 
 strong, b {font-weight: bold;}
 em, i {font-style: italic;}
@@ -109,6 +109,7 @@ ol {
     /*float:right;*/
     /*margin:10px;*/
     /*padding:5px;*/
+    color: firebrick;
 }
 
 .post-info p{
@@ -180,10 +181,10 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	#banner h1 {font-size: 51px; line-height: 0;}
 	#banner h1 a:link, #banner h1 a:visited {
         text-align:center;
-		color: #383732;
+		color: firebrick; 
 		display: block;
 		font-weight: normal;
-		margin: 0 0 .4em .2em;
+		margin: 0 0 .7em .2em;
 		text-decoration: none;
 	}
 	#banner h1 a:hover, #banner h1 a:active {
@@ -219,7 +220,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 		/*height: 30px;*/
         padding: 5px;
 		text-decoration: none;
-        color: #8A887B;
+        color: #065757;
 	}
 	#banner nav a:hover, #banner nav a:active,
 	#banner nav .active a:link, #banner nav .active a:visited {
@@ -380,7 +381,7 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 #content > .hentry {padding: 1em 0;}
 .hentry img{display : none ;}
 .entry-title {text-align:center;font-size: 31px; font-style:italic; margin-bottom: 10px; margin-top: 0;}
-.entry-title a:link, .entry-title a:visited {text-decoration: none; color: #8A887B;}
+.entry-title a:link, .entry-title a:visited {text-decoration: none; color: #231123;}
 .entry-title a:visited {background-color: #fff;}
 
 .hentry .post-info * {font-style: normal;}
