@@ -44,15 +44,15 @@
                 {% endif %}
                 <nav>
                 {% for title, link in MENUITEMS %}
-                    <a href="{{ link }}">{{ title }}</a>&nbsp;
+                    <a href="{{ link }}">{{ title }}</a>&nbsp; <b class="divider"> | </b>
                 {% endfor %}
                 {% if DISPLAY_PAGES_ON_MENU %}
                 {% for page in pages %}
-                    <a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a>&nbsp;
+                    <b class="divider"> | </b> <a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a>&nbsp; <b class="divider"> | </b>
                 {% endfor %}
                 {% endif %}
                 {% for cat, null in categories %}
-                    <a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a>&nbsp;
+                    <a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a>&nbsp; <b class="divider"> | </b>
                 {% endfor %}
                 </nav>
         </header><!-- /#banner -->
